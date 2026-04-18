@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="https://media.istockphoto.com/id/2167991454/video/snowy-night-in-cozy-room-read-books-and-drinking-coffee-sweet-cat-sleeping-next-to-fireplace.mp4?s=mp4-640x640-is&k=20&c=pntSDenZZAJY_fPuGjaKymn5Bp7a_u9gaTZJBbHtOHc=" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- App Container -->
+    <main class="app-container">
+        <div class="glass-panel">
+            <nav class="mode-selector">
+                <button class="mode-btn active" data-mode="pomodoro">Pomodoro</button>
+                <button class="mode-btn" data-mode="shortBreak">Short Break</button>
+                <button class="mode-btn" data-mode="longBreak">Long Break</button>
+            </nav>
+
+            <div class="timer-display">
+                <span id="minutes">25</span><span class="colon">:</span><span id="seconds">00</span>
+            </div>
+
+            <div class="controls">
+                <button id="start-btn" class="control-btn play-btn">
+                    <i class="fas fa-play"></i> Start
+                </button>
+                <button id="pause-btn" class="control-btn pause-btn hidden">
+                    <i class="fas fa-pause"></i> Pause
+                </button>
+                <button id="reset-btn" class="control-btn reset-btn">
+                    <i class="fas fa-redo"></i> Reset
+                </button>
+            </div>
+            
+            <div class="status-text" id="status-text"><strong>Time to focus!</strong></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
