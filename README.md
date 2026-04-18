@@ -34,5 +34,10 @@ Built for focus, peace, and a little aesthetic motivation 🌙
 # 📌 Author
 
 Made with boredom and curiosity by Manaswi Sorde
-
+# 
+<p align="center">
+  <a href="(http://127.0.0.1:5500/index.html)">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-blue?style=for-the-badge">
+  </a>
+</p>
 
