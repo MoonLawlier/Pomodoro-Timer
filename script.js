@@ -109,3 +109,34 @@ modeBtns.forEach(btn => {
 
 // Initialize Display
 updateDisplay();
+
+// Background Audio Toggling Logic
+const bgAudio = document.getElementById('bg-audio');
+const audioToggleBtn = document.getElementById('audio-toggle-btn');
+
+// Lower the volume a bit so it's not too loud
+bgAudio.volume = 0.4;
+
+audioToggleBtn.addEventListener('click', () => {
+    if (bgAudio.paused) {
+        bgAudio.play();
+    } else {
+        bgAudio.pause();
+    }
+});
+
+// Update icon based on audio state (especially helpful for autoplay policies)
+bgAudio.addEventListener('play', () => {
+    audioToggleBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+});
+
+bgAudio.addEventListener('pause', () => {
+    audioToggleBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+});
+
+// For autoplay policy: if autoplay fails, start muted or show paused icon
+document.addEventListener('DOMContentLoaded', () => {
+    if (bgAudio.paused) {
+        audioToggleBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+    }
+});
