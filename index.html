@@ -9,6 +9,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <!--Background Audio-->
+    <audio id="bg-audio" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
     <!-- Video Background -->
     <video autoplay loop muted playsinline id="bg-video">
         <source src="https://media.istockphoto.com/id/2167991454/video/snowy-night-in-cozy-room-read-books-and-drinking-coffee-sweet-cat-sleeping-next-to-fireplace.mp4?s=mp4-640x640-is&k=20&c=pntSDenZZAJY_fPuGjaKymn5Bp7a_u9gaTZJBbHtOHc=" type="video/mp4">
@@ -17,6 +21,11 @@
 
     <!-- App Container -->
     <main class="app-container">
+        <!-- Floating audio control -->
+        <button id="audio-toggle-btn" class="audio-toggle" title="Toggle Background Music">
+            <i class="fas fa-volume-up"></i>
+        </button>
+
         <div class="glass-panel">
             <nav class="mode-selector">
                 <button class="mode-btn active" data-mode="pomodoro">Pomodoro</button>
