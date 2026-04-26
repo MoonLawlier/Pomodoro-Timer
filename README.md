@@ -34,10 +34,6 @@ Built for focus, peace, and a little aesthetic motivation 🌙
 # 📌 Author
 
 Made with boredom and curiosity by Manaswi Sorde
-# 
-<p align="center">
-  <a href="https://moonlawlier.github.io/Pomodoro-Timer/">
-    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-blue?style=for-the-badge">
-  </a>
-</p>
+# [![My Button](https://img.shields.io/badge/LIVE_DEMO-000000?style=for-the-badge&logo=github&logoColor=white)](https://moonlawlier.github.io/Pomodoro-Timer/)
+
 
