@@ -2,6 +2,10 @@
 # 🌙 Pomodoro Focus Timer
 # <img width="1853" height="968" alt="Screenshot from 2026-04-18 14-51-27" src="https://github.com/user-attachments/assets/9be7f138-f5f9-4f06-a250-32ad8bcb101c" />
 
+
+# [![My Button](https://img.shields.io/badge/LIVE_DEMO-000000?style=for-the-badge&logo=github&logoColor=white)](https://moonlawlier.github.io/Pomodoro-Timer/)
+
+
 A minimal, aesthetic Pomodoro timer designed to help you focus deeply while enjoying a cozy vibe ✨
 
 # 🧠 About the Project
@@ -32,8 +36,4 @@ I built this when I was bored… and it turned into something actually useful.
 Built for focus, peace, and a little aesthetic motivation 🌙
 
 # 📌 Author
-
-Made with boredom and curiosity by Manaswi Sorde
-# [![My Button](https://img.shields.io/badge/LIVE_DEMO-000000?style=for-the-badge&logo=github&logoColor=white)](https://moonlawlier.github.io/Pomodoro-Timer/)
-
-
+ Manaswi Sorde
