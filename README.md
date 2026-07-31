@@ -36,4 +36,4 @@ I built this when I was bored… and it turned into something actually useful.
 Built for focus, peace, and a little aesthetic motivation 🌙
 
 # 📌 Author
- Manaswi Sorde
+ Made out of boredom by Manaswi Sorde
